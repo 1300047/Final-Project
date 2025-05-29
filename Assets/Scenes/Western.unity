@@ -1943,6 +1943,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+--- !u!1 &429872779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7984762852657924725, guid: c5ae541e7bee34db9a8f136da7a75947, type: 3}
+  m_PrefabInstance: {fileID: 161262142}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &474225658
 GameObject:
   m_ObjectHideFlags: 0
@@ -2727,7 +2732,7 @@ MonoBehaviour:
   OnPress:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 429872779}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -2739,7 +2744,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 666443912}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -3462,6 +3467,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4618499315715640417, guid: 7f124d3cf7aea204fb73e9d9578e3ca6, type: 3}
   m_PrefabInstance: {fileID: 640641022}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &666443912 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2460372423367452074, guid: c5ae541e7bee34db9a8f136da7a75947, type: 3}
+  m_PrefabInstance: {fileID: 161262142}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &672280353
 GameObject:
@@ -4380,13 +4390,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
+      propertyPath: m_HandActionAsset
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_ControllerActionAsset
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6598815579406187026, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_DeviceSimulatorActionAsset
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: -944628639613478452, guid: da2b439d1a2de5c46a4f428f8cf4fe19, type: 3}
     - target: {fileID: 6598815579406187027, guid: 9f5a24a380916d14db9775daab4fe333, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.2848587
