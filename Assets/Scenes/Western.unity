@@ -4319,6 +4319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Gramophone Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 3882119979358889727, guid: 92259c6d2352844b6aa45ff311471b5e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c103d6e8782e342dfa81a842c611d653, type: 3}
     - target: {fileID: 6093048868919911490, guid: 92259c6d2352844b6aa45ff311471b5e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.52
