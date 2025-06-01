@@ -368,7 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1982472015750447323, guid: e0248890c9b63bf40a43e0b64bd89707, type: 3}
   startPoint: {fileID: 4036791269143378056}
-  launchSpeed: 5
+  launchSpeed: 30
 --- !u!64 &-3968804021408890685
 MeshCollider:
   m_ObjectHideFlags: 0
