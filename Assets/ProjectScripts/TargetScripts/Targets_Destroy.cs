@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Targets_Destroy : MonoBehaviour
 {
-    void IsHit(){
+    public void IsHit(){
         Destroy(gameObject);
     }
 }
