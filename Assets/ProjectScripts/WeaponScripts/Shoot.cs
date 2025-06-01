@@ -8,7 +8,7 @@ public class Shoot : MonoBehaviour
    [Tooltip("The projectile that's created")]
     public GameObject projectilePrefab = null;
 
-    [Tooltip("The point that the project is created")]
+    [Tooltip("The point that the projectile is created")]
     public Transform startPoint = null;
 
     [Tooltip("The speed at which the projectile is launched")]
@@ -16,14 +16,17 @@ public class Shoot : MonoBehaviour
 
     private ScoreScript scoreScript;
     public GameObject scoreObject = null;
+    private Transform laydown;
     
     void Start() {
         scoreScript = scoreObject.GetComponent<ScoreScript>();
+        laydown.rotation.x = startPoint.rotation.x + 90;
+        laydown.rotation.y = startPoint.rotation.z + 90;
     }
 
     public void Fire()
     {
-        GameObject newObject = Instantiate(projectilePrefab, startPoint.position, startPoint.rotation);
+        GameObject newObject = Instantiate(projectilePrefab, startPoint.position, laydown.rotation);
 
         if (newObject.TryGetComponent(out Rigidbody rigidBody))
             ApplyForce(rigidBody);

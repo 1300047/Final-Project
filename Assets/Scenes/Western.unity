@@ -6139,6 +6139,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1574013565}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: IsHit
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: Targets_Destroy, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2381780052650128498, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+      propertyPath: OnEnter.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4278030081547441744, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
       propertyPath: m_Name
       value: Target 3
@@ -6180,17 +6208,17 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 2
       value: 0
-      inSlope: 3
-      outSlope: 3
+      inSlope: 3.5
+      outSlope: 3.5
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
       time: 3
-      value: 3
-      inSlope: 3
-      outSlope: 3
+      value: 3.5
+      inSlope: 3.5
+      outSlope: 3.5
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
@@ -6198,6 +6226,17 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 0
     m_RotationOrder: 4
+--- !u!114 &1574013565 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: -7421158146013688548, guid: 6901fd105f3a6b34594b6c04f2c3b0d6, type: 3}
+  m_PrefabInstance: {fileID: 1574013557}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574013559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e17025c5f605264cb44ac2417819fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1579370453
 GameObject:
   m_ObjectHideFlags: 0
@@ -8099,12 +8138,28 @@ PrefabInstance:
       value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
       propertyPath: m_LocalRotation.y
       value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4036791269143378056, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4613257924924322044, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
       propertyPath: m_Activated.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -8124,7 +8179,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5846257809783337773, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
       propertyPath: launchSpeed
-      value: 50
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 5846257809783337773, guid: 197a35573c8800b4c91005bafc466d13, type: 3}
       propertyPath: scoreObject
