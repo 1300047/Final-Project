@@ -16,17 +16,16 @@ public class Shoot : MonoBehaviour
 
     private ScoreScript scoreScript;
     public GameObject scoreObject = null;
-    private Transform laydown;
+    public Transform projectileRotation = null;
     
     void Start() {
         scoreScript = scoreObject.GetComponent<ScoreScript>();
-        laydown.rotation.x = startPoint.rotation.x + 90;
-        laydown.rotation.y = startPoint.rotation.z + 90;
+        
     }
 
     public void Fire()
     {
-        GameObject newObject = Instantiate(projectilePrefab, startPoint.position, laydown.rotation);
+        GameObject newObject = Instantiate(projectilePrefab, startPoint.position, projectileRotation.rotation);
 
         if (newObject.TryGetComponent(out Rigidbody rigidBody))
             ApplyForce(rigidBody);
