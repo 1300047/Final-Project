@@ -14,12 +14,11 @@ public class Shoot : MonoBehaviour
     [Tooltip("The speed at which the projectile is launched")]
     public float launchSpeed = 1.0f;
 
-    private ScoreScript scoreScript;
-    public GameObject scoreObject = null;
+    public ScoreScript scoreScript = null;
     public Transform projectileRotation = null;
     
     void Start() {
-        scoreScript = scoreObject.GetComponent<ScoreScript>();
+        //scoreScript = scoreObject.GetComponent<ScoreScript>();
         
     }
 
