@@ -72,15 +72,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 2e658317ffb6b154e92666f0311eed9f, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e658317ffb6b154e92666f0311eed9f, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e658317ffb6b154e92666f0311eed9f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 2e658317ffb6b154e92666f0311eed9f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 1982472015750447323, guid: e0248890c9b63bf40a43e0b64bd89707, type: 3}
   startPoint: {fileID: 4036791269143378056}
-  launchSpeed: 5
+  launchSpeed: 30
 --- !u!64 &-3968804021408890685
 MeshCollider:
   m_ObjectHideFlags: 0
