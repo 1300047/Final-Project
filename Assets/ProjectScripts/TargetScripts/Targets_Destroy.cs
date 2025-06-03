@@ -5,17 +5,18 @@ using UnityEngine;
 
 public class Targets_Destroy : MonoBehaviour
 {
-    private ScoreScript scoreScript;
-    public GameObject scoreObject = null;
+    public ScoreScript scoreScript;
+    //public GameObject scoreObject = null;
     
     void Start() {
-        scoreScript = scoreObject.GetComponent<ScoreScript>();
+        //scoreScript = scoreObject.GetComponent<ScoreScript>();
     }
 
     public void IsHit(){
         if(scoreScript != null){
             scoreScript.Score += 1;
-            Destroy(gameObject);
+            //Destroy(gameObject);
+            gameObject.SetActive(false);
         }
     }
 }
