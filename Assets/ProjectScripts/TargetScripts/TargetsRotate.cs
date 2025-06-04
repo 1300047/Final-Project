@@ -5,19 +5,19 @@ using UnityEngine;
 public class TargetsRotate : MonoBehaviour
 {
 
-    private float startPosition; 
+    private float startAngle; 
     public AnimationCurve myCurve;
 
     // Start is called before the first frame update
     void Start()
     {
-        startPosition = transform.eulerAngles.y;
+        startAngle = transform.eulerAngles.y;
     }
 
     
     // Update is called once per frame
     void Update()
     {
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, startPosition + myCurve.Evaluate(Time.time)*10, transform.eulerAngles.z);
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, startAngle + myCurve.Evaluate(Time.time)*10, transform.eulerAngles.z);
     }
 }

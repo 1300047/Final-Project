@@ -61,7 +61,7 @@ PrefabInstance:
       addedObject: {fileID: 438439558724936769}
     - targetCorrespondingSourceObject: {fileID: 8541502739807818578, guid: e3612f97016f5ba45a64b50f278cfe67, type: 3}
       insertIndex: -1
-      addedObject: {fileID: -2354246064105549667}
+      addedObject: {fileID: -2524575026120317179}
     - targetCorrespondingSourceObject: {fileID: 5098471331132109774, guid: e3612f97016f5ba45a64b50f278cfe67, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8647228799401795933}
@@ -92,7 +92,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2354246064105549667
+--- !u!114 &-2524575026120317179
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -101,10 +101,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4982640423421404770}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e17025c5f605264cb44ac2417819fa7, type: 3}
+  m_Script: {fileID: 11500000, guid: a274efe5982fed948938ff9805034b0b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scoreScript: {fileID: 0}
+  destroyer: {fileID: 0}
 --- !u!1 &8461435517968959230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5098471331132109774, guid: e3612f97016f5ba45a64b50f278cfe67, type: 3}
@@ -148,8 +149,8 @@ MonoBehaviour:
   OnEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4982640423421404770}
-        m_TargetAssemblyTypeName: Targets_Destroy, Assembly-CSharp
+      - m_Target: {fileID: -2524575026120317179}
+        m_TargetAssemblyTypeName: SnowmanDestroy, Assembly-CSharp
         m_MethodName: IsHit
         m_Mode: 1
         m_Arguments:
